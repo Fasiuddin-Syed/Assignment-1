@@ -1,0 +1,88 @@
+<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		h1 {
+			text-align: center;
+			font-family: Helvetica;
+		}
+		p{
+  		margin-right: auto;
+			padding:1px;
+  		}
+
+		section {
+			position: relative;
+			font-style: normal;
+			background-color: #C0C0C0;
+			border: 1px solid black;
+			overflow: auto;
+			margin: 10px;
+		}
+
+		.title {
+			font-family:"Arial Black", Gadget, sans-serif;
+			position: relative;
+			float: right;
+			border-left: 1px solid black;
+			border-bottom: 1px solid black;
+
+		}
+
+		#color1 {
+			background-color: #F0FFF0;
+
+		}
+		#color2 {
+			background-color: 	#E6E6FA;
+
+		}
+		#color3 {
+			background-color: #D2B48C;
+
+		}
+		@media (min-width: 992px){
+			#p1 {
+				width: 33.33%;
+				float: left;
+			}
+			#p2 {
+				width: 33.33%;
+				float: left;
+			}
+			#p3 {
+				width: 33.33%;
+				float: left;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			#p1 {
+				width: 50%;
+				float: left;
+				margin-bottom: 5px;
+			}
+			#p2 {
+				width: 50%;
+				float: left;
+				margin-bottom: 5px;
+			}
+			#p3 {
+				width: 100%;
+			}
+		}
+		@media (max-width: 767px) {
+			#p1 {
+				width: 100%;
+				margin-bottom: 5px;
+			}
+			#p2 {
+				width: 100%;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			#p3 {
+				width: 100%;
+				margin-top: 5px;
+			}
+		}
+	</style>
